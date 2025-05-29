@@ -10,11 +10,19 @@ Suppression des étudiants sélectionnés .
 ## Installation
 git clone https://github.com/GestionDesTaches123/Gestion_des_taches.git https://github.com/GestionDesTaches123/Gestion_des_taches/tree/main/Gestionnaire1/dist
 télécharger "Gestionnaire1.jar"
+
 --Configurer la base de données MySQL--
+
 Ouvre phpMyAdmin ou ton outil MySQL préféré
+
 Crée une base de données
-Exécute le script SQL fourni ( database/gestion_des_taches.sql)
+
+Exécute le script SQL fourni ( projet1.sql)
+
 Modifier les paramètres de connexion à la base de données:
-String url = "jdbc:mysql://localhost:3306/projet1";
-String user = "root";
-String password = "";
+String url = "jdbc:mysql://localhost:3306/projet1"
+
+String user = "root"
+
+String password = ""
+
